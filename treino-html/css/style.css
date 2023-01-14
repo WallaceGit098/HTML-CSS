@@ -1,0 +1,117 @@
+body{
+    width: vw;
+    height: vh;
+}
+header{
+    background: #BBCCBB;
+    padding: 30px 0px;
+}
+.cabecalho{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.cabecalho h1{
+    font-size: 40px;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 5px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.slide-botoes{
+    height: 425px;
+    width: 640px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.botoes{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.bar:hover{
+    background: #fff;
+    transition: 0.3s;
+}
+input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+.slide{
+    width: 25%;
+    transition:0.4s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~.s1{
+    margin-left: -25%;
+}
+#slide3:checked ~.s1{
+    margin-left: -50%;
+}
+#slide4:checked ~.s1{
+    margin-left: -75%;
+}
+
+.scroll{
+    top: 90%;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    background: #CCCCCC;
+    
+}
+.scroll img{
+    margin: 5px;
+    border-radius: 20px;
+    height: 360px;
+    width: 540px;
+}
+div::-webkit-scrollbar{
+    display: none;
+}
+
