@@ -1,0 +1,62 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    background-color: red;
+}
+
+/* Css do cabeçalho*/
+header{
+    height: 30%;
+    background-color:#010B9A;
+}
+.cabeçalho{
+    position: relative;
+    width: 70%;
+    height: 205px;
+    margin: 0 0 auto;
+    background-color: #FEFEFE;
+}
+.cabeçalho img{  
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 10px; 
+    margin-left: 93%;
+      
+}
+.cabeçalho h1{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 20%;
+}
+.cabeçalho h3{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    margin: 0 25%;
+    font-size: 25px;
+}
+/*css da parte profissional*/
+
+.profissional{
+    padding: 40px;
+    width: 70%;
+    background-color: #46495A;
+    margin: auto 40px ;
+}
+
+.escolaridade h1{
+    background-color:#6D6E84;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.escolaridade ul{
+    margin:10px;
+    display: inline-block;
+}
